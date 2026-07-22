@@ -1,0 +1,26 @@
+---
+# Keep `description` on a single line — single-line is the safe convention for
+# skill parsing. This is the one field that matters most: Claude reads it to
+# decide when to auto-invoke the skill, so say what it does AND when to use it.
+description: "TODO: what this skill does and when Claude should use it"
+
+# All fields below are optional. Uncomment what you need.
+# name: {{NAME}}                     # Display name. Defaults to the directory name.
+                                     # In a plugin it also sets the command's last
+                                     # segment, e.g. name: fancy -> /{{NAME}}:fancy
+# when_to_use: "..."                 # Extra trigger phrases; appended to description
+# argument-hint: [arg1] [arg2]       # Shown during / autocomplete
+# arguments: [arg1, arg2]            # Named positional args for $arg1 / $arg2 in the body
+# disable-model-invocation: false    # true = only the user can run it (never auto-loaded)
+# user-invocable: true               # false = hide from the / menu (Claude-only knowledge)
+# allowed-tools: Read, Grep, Glob    # Pre-approved tools for the invoking turn only
+# disallowed-tools: AskUserQuestion  # Tools removed while this skill is active
+# model: inherit                     # inherit | sonnet | opus | haiku | fable ...
+# effort: medium                     # low | medium | high | xhigh | max
+# paths: "src/**/*.ts"               # Auto-activate only when working on matching files
+# context: fork                      # Run the skill in a forked subagent context
+# agent: Explore                     # Subagent type to use when context: fork
+---
+
+TODO: Add skill instructions here. Write them as direct guidance
+("When asked to X, do Y"). Use $ARGUMENTS to reference user input.

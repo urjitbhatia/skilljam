@@ -1,0 +1,9 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "skilljam",
+  "description": "Publicly shared LLM skills by Urjit Singh Bhatia.",
+  "owner": {
+    "name": "Urjit Singh Bhatia"
+  },
+  "plugins": []
+}
