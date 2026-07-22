@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "skilljam",
+  "description": "Publicly shared LLM skills by Urjit Singh Bhatia.",
+  "owner": {
+    "name": "Urjit Singh Bhatia"
+  },
+  "metadata": {
+    "pluginRoot": "./plugins"
+  },
+  "plugins": [
+    {
+      "name": "skilljam",
+      "source": "./skilljam",
+      "description": "A collection of publicly shared, general-purpose LLM skills.",
+      "author": {
+        "name": "Urjit Singh Bhatia"
+      },
+      "homepage": "https://github.com/urjitbhatia/skilljam",
+      "repository": "https://github.com/urjitbhatia/skilljam",
+      "license": "MIT",
+      "keywords": ["skills", "llm", "claude-code"],
+      "category": "productivity"
+    }
+  ]
+}
