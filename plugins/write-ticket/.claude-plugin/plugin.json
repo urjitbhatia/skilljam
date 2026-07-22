@@ -1,0 +1,12 @@
+{
+  "name": "write-ticket",
+  "description": "Write or update well-structured, scannable Linear tickets via the Linear MCP.",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": {
+    "name": "Urjit Singh Bhatia"
+  },
+  "homepage": "https://github.com/urjitbhatia/skilljam",
+  "repository": "https://github.com/urjitbhatia/skilljam",
+  "keywords": ["linear", "tickets", "issue-tracking", "mcp"]
+}
