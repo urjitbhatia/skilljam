@@ -1,15 +1,7 @@
 ---
 name: write-ticket
 description: 'Write or update a well-structured Linear ticket (and create it via the Linear MCP). Turns a rough description, a bug report, or research notes into a scannable ticket: conventional [TYPE] scope — summary title, an at-a-glance header, an upfront ask, prior research, details, and follow-ups — using tables, lists, and bold instead of walls of text. Use when the user says /write-ticket, "write a ticket", "file a ticket", "create a Linear ticket", "turn this into a ticket", or "update ticket XYZ-123 with …", or when you have to create a Linear ticket as part of your workflow.'
-triggers:
-  - /write-ticket
-  - write a ticket
-  - file a ticket
-  - create a linear ticket
-  - create a ticket
-  - turn this into a ticket
-  - update ticket
-  - draft a ticket
+when_to_use: 'Use when the user says /write-ticket, "write a ticket", "file a ticket", "create a Linear ticket", "create a ticket", "turn this into a ticket", "update ticket XYZ-123", or "draft a ticket" — or whenever creating a Linear ticket is part of the workflow.'
 ---
 
 Write a Linear ticket that someone can **act on in 15 seconds of scanning** — not a wall
